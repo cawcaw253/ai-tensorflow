@@ -33,3 +33,7 @@ pip3 install jupyter
 ```
 jupyter notebook
 ```
+
+## Refer to
+
+```https://alexmanrique.com/blog/development/2021/03/05/installing-jupyter-in-macbook-air-m1.html```
