@@ -22,7 +22,9 @@ echo 'eval "$(pyenv init -)"' >> .zshrc
 pyenv global 3.9.1
 ```
 
-### install Miniforge (Miniforge homepage: https://github.com/conda-forge/miniforge)
+### install Miniforge
+
+* Install from Miniforge homepage: https://github.com/conda-forge/miniforge
 
 ```
 bash Miniforge3-MacOSX-arm64.sh
