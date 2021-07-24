@@ -33,13 +33,13 @@ bash Miniforge3-MacOSX-arm64.sh
 ### create Conda environment
 
 ```
-conda env create --file=environment.env --name=workspace
+conda env create --file=environment.yml --name=workspace
 ```
 
 ### activate environment
 
 ```
-conda activate TensorFlowWorkspace
+conda activate workspace
 ```
 
 ### install TensorFlow and TensorFlow Addons for macOS
@@ -59,7 +59,7 @@ conda install notebook -y
 ### activate conda environment
 
 ```
-conda activate TensorFlowWorkspace
+conda activate workspace
 ```
 
 ### running Jupyter
