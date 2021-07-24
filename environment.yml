@@ -1,8 +1,9 @@
-name: apple_tensorflow
+name: workspace
 channels:
   - conda-forge
   - nodefaults
 dependencies:
+  - matplotlib
   - grpcio
   - h5py
   - ipython

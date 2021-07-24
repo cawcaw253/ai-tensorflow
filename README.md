@@ -5,7 +5,7 @@
 ### install Python
 
 ```
-brew install pyenv 
+brew install pyenv
 ```
 
 ```
@@ -24,7 +24,7 @@ pyenv global 3.9.1
 
 ### install Miniforge
 
-* Install from Miniforge homepage: https://github.com/conda-forge/miniforge
+- Install from Miniforge homepage: https://github.com/conda-forge/miniforge
 
 ```
 bash Miniforge3-MacOSX-arm64.sh
@@ -56,6 +56,12 @@ conda install notebook -y
 
 ## Running
 
+### if environment.yml is updated
+
+```
+conda env update --file environment.yml  --prune
+```
+
 ### activate conda environment
 
 ```
@@ -84,5 +90,5 @@ conda deactivate
 
 ## Refer to
 
-* https://alexmanrique.com/blog/development/2021/03/05/installing-jupyter-in-macbook-air-m1.html
-* https://medium.com/gft-engineering/macbook-m1-tensorflow-on-jupyter-notebooks-6171e1f48060
+- https://alexmanrique.com/blog/development/2021/03/05/installing-jupyter-in-macbook-air-m1.html
+- https://medium.com/gft-engineering/macbook-m1-tensorflow-on-jupyter-notebooks-6171e1f48060
